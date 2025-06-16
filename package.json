@@ -1,0 +1,33 @@
+{
+  "name": "@hashgraphonline/lfdt-license-check",
+  "version": "1.0.0",
+  "description": "CLI tool for verifying npm dependencies comply with LF Decentralized Trust license requirements",
+  "main": "verify-lfdt-licenses.js",
+  "bin": {
+    "lfdt-check": "./verify-lfdt-licenses.js"
+  },
+  "scripts": {
+    "check": "node verify-lfdt-licenses.js",
+    "check:local": "node verify-lfdt-licenses.js .",
+    "check:github": "node verify-lfdt-licenses.js"
+  },
+  "keywords": [
+    "lfdt",
+    "license",
+    "compliance",
+    "lf-decentralized-trust",
+    "dependencies",
+    "npm",
+    "audit"
+  ],
+  "author": "Hashgraph Online",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashgraph-online/lfdt-license-check"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": true
+}
